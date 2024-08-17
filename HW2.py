@@ -31,8 +31,6 @@ class Ship:
     def hit(self, shot):
         return shot in self.points
 
-import random
-
 class Board:
     def __init__(self, size=6):
         self.size = size
